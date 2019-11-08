@@ -33,6 +33,12 @@ I actively maintain on Hackage.
 [![Hackage](https://img.shields.io/hackage/v/json-feed)](https://hackage.haskell.org/package/json-feed)
 [![Stackage](https://www.stackage.org/package/json-feed/badge/nightly?label=stackage)](https://www.stackage.org/package/json-feed)
 
+## :gem: lackey
+
+[![GitHub](https://img.shields.io/github/issues/tfausak/lackey)](https://github.com/tfausak/lackey)
+[![Hackage](https://img.shields.io/hackage/v/lackey)](https://hackage.haskell.org/package/lackey)
+[![Stackage](https://www.stackage.org/package/lackey/badge/nightly?label=stackage)](https://www.stackage.org/package/lackey)
+
 ## :one: list-singleton
 
 [![GitHub](https://img.shields.io/github/issues/tfausak/list-singleton)](https://github.com/tfausak/list-singleton)
