@@ -1,0 +1,27 @@
+snapshot: nightly-2019-11-01
+
+packages:
+  - autoexporter
+  - derulo
+  - flow
+  - github-release
+  - json-feed
+  - lackey
+  - list-singleton
+  - ratel
+  - ratel-wai
+  - rattletrap
+  - salve
+  - strive
+  - wuss
+
+extra-deps:
+  - HTTP-4000.3.14
+
+  # https://github.com/kolmodin/binary-bits/pull/13
+  - git: https://github.com/tfausak/binary-bits
+    commit: b7480fd7023d9d3adb1862309dd7bc9276e778ed
+
+  # https://github.com/iand675/uri-templater/pull/6
+  - git: https://github.com/tfausak/uri-templater
+    commit: 82bf81c34eda3eac39560fa9526d9c5f5505c0c3
