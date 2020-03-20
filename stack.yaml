@@ -1,4 +1,4 @@
-snapshot: nightly-2019-11-01
+snapshot: lts-15.4
 
 packages:
   - autoexporter
@@ -16,7 +16,6 @@ packages:
   - wuss
 
 extra-deps:
-  - HTTP-4000.3.14
 
   # https://github.com/kolmodin/binary-bits/pull/13
   - git: https://github.com/tfausak/binary-bits
