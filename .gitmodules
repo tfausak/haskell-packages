@@ -37,3 +37,6 @@
 [submodule "wuss"]
 	path = wuss
 	url = git@github.com:tfausak/wuss.git
+[submodule "rampart"]
+	path = rampart
+	url = git@github.com:tfausak/rampart.git

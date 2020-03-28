@@ -45,6 +45,12 @@ I actively maintain on Hackage.
 [![Hackage](https://img.shields.io/hackage/v/list-singleton)](https://hackage.haskell.org/package/list-singleton)
 [![Stackage](https://www.stackage.org/package/list-singleton/badge/nightly?label=stackage)](https://www.stackage.org/package/list-singleton)
 
+## :european_castle: rampart
+
+[![GitHub](https://img.shields.io/github/issues/tfausak/rampart)](https://github.com/tfausak/rampart)
+[![Hackage](https://img.shields.io/hackage/v/rampart)](https://hackage.haskell.org/package/rampart)
+[![Stackage](https://www.stackage.org/package/rampart/badge/nightly?label=stackage)](https://www.stackage.org/package/rampart)
+
 ## :honey_pot: ratel
 
 [![GitHub](https://img.shields.io/github/issues/tfausak/ratel)](https://github.com/tfausak/ratel)
