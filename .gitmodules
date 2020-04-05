@@ -40,3 +40,6 @@
 [submodule "rampart"]
 	path = rampart
 	url = git@github.com:tfausak/rampart.git
+[submodule "burrito"]
+	path = burrito
+	url = git@github.com:tfausak/burrito.git

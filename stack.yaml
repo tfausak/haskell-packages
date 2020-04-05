@@ -2,6 +2,7 @@ snapshot: lts-15.4
 
 packages:
   - autoexporter
+  - burrito
   - derulo
   - flow
   - github-release
