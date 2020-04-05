@@ -1,4 +1,6 @@
-snapshot: lts-15.4
+# snapshot: lts-14.27 # GHC 8.6
+snapshot: lts-15.4 # GHC 8.8
+# compiler: ghc-8.10.1 # GHC 8.10 (use with LTS-15.4)
 
 packages:
   - autoexporter
@@ -9,6 +11,7 @@ packages:
   - json-feed
   - lackey
   - list-singleton
+  - rampart
   - ratel
   - ratel-wai
   - rattletrap
@@ -20,8 +23,4 @@ extra-deps:
 
   # https://github.com/kolmodin/binary-bits/pull/13
   - git: https://github.com/tfausak/binary-bits
-    commit: b7480fd7023d9d3adb1862309dd7bc9276e778ed
-
-  # https://github.com/iand675/uri-templater/pull/6
-  - git: https://github.com/tfausak/uri-templater
-    commit: 82bf81c34eda3eac39560fa9526d9c5f5505c0c3
+    commit: ac97db5fb88940ac4b05481d3d1b36005a715172
