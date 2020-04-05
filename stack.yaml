@@ -21,6 +21,8 @@ packages:
 
 extra-deps:
 
+  # - lens-4.19.1 # for GHC 8.10
+
   # https://github.com/kolmodin/binary-bits/pull/13
   - git: https://github.com/tfausak/binary-bits
     commit: ac97db5fb88940ac4b05481d3d1b36005a715172
