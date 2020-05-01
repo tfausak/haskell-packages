@@ -107,3 +107,18 @@ I actively maintain on Hackage.
 [![Travis CI](https://travis-ci.org/tfausak/wuss.svg?branch=master)](https://travis-ci.org/tfausak/wuss)
 [![Hackage](https://img.shields.io/hackage/v/wuss)](https://hackage.haskell.org/package/wuss)
 [![Stackage](https://www.stackage.org/package/wuss/badge/nightly?label=stackage)](https://www.stackage.org/package/wuss)
+
+---
+
+Since I always forget how to work with Git submodules, here's how to get
+everything set up initially:
+
+``` sh
+> git clone git@github.com:tfausak/haskell-packages.git
+> cd haskell-packages
+> git submodule init
+> git submodule update
+> git submodule foreach git checkout master
+> git submodule foreach git pull
+> stack test
+```
