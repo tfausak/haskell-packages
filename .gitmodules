@@ -43,3 +43,6 @@
 [submodule "burrito"]
 	path = burrito
 	url = https://github.com/tfausak/burrito.git
+[submodule "splint"]
+	path = splint
+	url = https://github.com/tfausak/splint.git

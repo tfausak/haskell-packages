@@ -16,6 +16,7 @@ packages:
   - ratel-wai
   - rattletrap
   - salve
+  # - splint <https://github.com/tfausak/splint/issues/2>
   - strive
   - wuss
 

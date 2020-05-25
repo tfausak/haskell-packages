@@ -94,6 +94,13 @@ I actively maintain on Hackage.
 [![Hackage](https://img.shields.io/hackage/v/salve)](https://hackage.haskell.org/package/salve)
 [![Stackage](https://www.stackage.org/package/salve/badge/nightly?label=stackage)](https://www.stackage.org/package/salve)
 
+## :newspaper_roll: splint
+
+[![GitHub](https://img.shields.io/github/issues/tfausak/splint)](https://github.com/tfausak/splint)
+[![Travis CI](https://travis-ci.org/tfausak/splint.svg?branch=master)](https://travis-ci.org/tfausak/splint)
+[![Hackage](https://img.shields.io/hackage/v/splint)](https://hackage.haskell.org/package/splint)
+[![Stackage](https://www.stackage.org/package/splint/badge/nightly?label=stackage)](https://www.stackage.org/package/splint)
+
 ## :bicyclist: strive
 
 [![GitHub](https://img.shields.io/github/issues/tfausak/strive)](https://github.com/tfausak/strive)
