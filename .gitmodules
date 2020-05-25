@@ -1,45 +1,45 @@
 [submodule "autoexporter"]
 	path = autoexporter
-	url = git@github.com:tfausak/autoexporter.git
+	url = https://github.com/tfausak/autoexporter.git
 [submodule "derulo"]
 	path = derulo
-	url = git@github.com:tfausak/derulo.git
+	url = https://github.com/tfausak/derulo.git
 [submodule "flow"]
 	path = flow
-	url = git@github.com:tfausak/flow.git
+	url = https://github.com/tfausak/flow.git
 [submodule "github-release"]
 	path = github-release
-	url = git@github.com:tfausak/github-release.git
+	url = https://github.com/tfausak/github-release.git
 [submodule "json-feed"]
 	path = json-feed
-	url = git@github.com:tfausak/json-feed.git
+	url = https://github.com/tfausak/json-feed.git
 [submodule "lackey"]
 	path = lackey
-	url = git@github.com:tfausak/lackey.git
+	url = https://github.com/tfausak/lackey.git
 [submodule "list-singleton"]
 	path = list-singleton
-	url = git@github.com:tfausak/list-singleton.git
+	url = https://github.com/tfausak/list-singleton.git
 [submodule "ratel"]
 	path = ratel
-	url = git@github.com:tfausak/ratel.git
+	url = https://github.com/tfausak/ratel.git
 [submodule "ratel-wai"]
 	path = ratel-wai
-	url = git@github.com:tfausak/ratel-wai.git
+	url = https://github.com/tfausak/ratel-wai.git
 [submodule "rattletrap"]
 	path = rattletrap
-	url = git@github.com:tfausak/rattletrap.git
+	url = https://github.com/tfausak/rattletrap.git
 [submodule "salve"]
 	path = salve
-	url = git@github.com:tfausak/salve.git
+	url = https://github.com/tfausak/salve.git
 [submodule "strive"]
 	path = strive
-	url = git@github.com:tfausak/strive.git
+	url = https://github.com/tfausak/strive.git
 [submodule "wuss"]
 	path = wuss
-	url = git@github.com:tfausak/wuss.git
+	url = https://github.com/tfausak/wuss.git
 [submodule "rampart"]
 	path = rampart
-	url = git@github.com:tfausak/rampart.git
+	url = https://github.com/tfausak/rampart.git
 [submodule "burrito"]
 	path = burrito
-	url = git@github.com:tfausak/burrito.git
+	url = https://github.com/tfausak/burrito.git
