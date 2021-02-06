@@ -49,3 +49,6 @@
 [submodule "witch"]
 	path = witch
 	url = https://github.com/tfausak/witch.git
+[submodule "caerbannog"]
+	path = caerbannog
+	url = https://github.com/tfausak/caerbannog.git

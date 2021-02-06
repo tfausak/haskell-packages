@@ -17,6 +17,12 @@ I actively maintain on Hackage.
 [![Hackage](https://img.shields.io/hackage/v/burrito)](https://hackage.haskell.org/package/burrito)
 [![Stackage](https://www.stackage.org/package/burrito/badge/nightly?label=stackage)](https://www.stackage.org/package/burrito)
 
+## caerbannog
+
+[![GitHub](https://img.shields.io/github/issues/tfausak/caerbannog)](https://github.com/tfausak/caerbannog)
+[![Hackage](https://img.shields.io/hackage/v/caerbannog)](https://hackage.haskell.org/package/caerbannog)
+[![Stackage](https://www.stackage.org/package/caerbannog/badge/nightly?label=stackage)](https://www.stackage.org/package/caerbannog)
+
 ## :studio_microphone: derulo
 
 [![GitHub](https://img.shields.io/github/issues/tfausak/derulo)](https://github.com/tfausak/derulo)
