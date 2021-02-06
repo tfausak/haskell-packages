@@ -46,3 +46,6 @@
 [submodule "splint"]
 	path = splint
 	url = https://github.com/tfausak/splint.git
+[submodule "witch"]
+	path = witch
+	url = https://github.com/tfausak/witch.git
