@@ -17,7 +17,7 @@ I actively maintain on Hackage.
 [![Hackage](https://img.shields.io/hackage/v/burrito)](https://hackage.haskell.org/package/burrito)
 [![Stackage](https://www.stackage.org/package/burrito/badge/nightly?label=stackage)](https://www.stackage.org/package/burrito)
 
-## caerbannog
+## :rabbit: caerbannog
 
 [![GitHub](https://img.shields.io/github/issues/tfausak/caerbannog)](https://github.com/tfausak/caerbannog)
 [![CI](https://github.com/tfausak/caerbannog/workflows/CI/badge.svg)](https://github.com/tfausak/caerbannog/actions)
@@ -139,7 +139,7 @@ everything set up initially:
 > cd haskell-packages
 > git submodule init
 > git submodule update
-> git submodule foreach git checkout master
+> git submodule foreach git checkout main
 > git submodule foreach git pull
-> stack test --fast --no-run-tests
+> stack build --bench --fast --no-run-benchmarks --no-run-tests --test
 ```
