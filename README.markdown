@@ -141,5 +141,6 @@ everything set up initially:
 > git submodule update
 > git submodule foreach git checkout main
 > git submodule foreach git pull
-> stack build --bench --fast --no-run-benchmarks --no-run-tests --test
+> cabal configure --enable-benchmarks --enable-tests --jobs
+> cabal build all
 ```
