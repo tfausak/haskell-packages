@@ -11,7 +11,7 @@ packages:
   rampart
   ratel
   ratel-wai
-  -- rattletrap
+  rattletrap
   salve
   splint
   strive
