@@ -17,20 +17,6 @@ I actively maintain on Hackage.
 [![Hackage](https://img.shields.io/hackage/v/burrito)](https://hackage.haskell.org/package/burrito)
 [![Stackage](https://www.stackage.org/package/burrito/badge/nightly?label=stackage)](https://www.stackage.org/package/burrito)
 
-## :rabbit: caerbannog
-
-[![GitHub](https://img.shields.io/github/issues/tfausak/caerbannog)](https://github.com/tfausak/caerbannog)
-[![CI](https://github.com/tfausak/caerbannog/workflows/CI/badge.svg)](https://github.com/tfausak/caerbannog/actions)
-[![Hackage](https://img.shields.io/hackage/v/caerbannog)](https://hackage.haskell.org/package/caerbannog)
-[![Stackage](https://www.stackage.org/package/caerbannog/badge/nightly?label=stackage)](https://www.stackage.org/package/caerbannog)
-
-## :studio_microphone: derulo
-
-[![GitHub](https://img.shields.io/github/issues/tfausak/derulo)](https://github.com/tfausak/derulo)
-[![CI](https://github.com/tfausak/derulo/workflows/CI/badge.svg)](https://github.com/tfausak/derulo/actions)
-[![Hackage](https://img.shields.io/hackage/v/derulo)](https://hackage.haskell.org/package/derulo)
-[![Stackage](https://www.stackage.org/package/derulo/badge/nightly?label=stackage)](https://www.stackage.org/package/derulo)
-
 ## :droplet: flow
 
 [![GitHub](https://img.shields.io/github/issues/tfausak/flow)](https://github.com/tfausak/flow)
@@ -58,13 +44,6 @@ I actively maintain on Hackage.
 [![CI](https://github.com/tfausak/lackey/workflows/CI/badge.svg)](https://github.com/tfausak/lackey/actions)
 [![Hackage](https://img.shields.io/hackage/v/lackey)](https://hackage.haskell.org/package/lackey)
 [![Stackage](https://www.stackage.org/package/lackey/badge/nightly?label=stackage)](https://www.stackage.org/package/lackey)
-
-## :one: list-singleton
-
-[![GitHub](https://img.shields.io/github/issues/tfausak/list-singleton)](https://github.com/tfausak/list-singleton)
-[![CI](https://github.com/tfausak/list-singleton/workflows/CI/badge.svg)](https://github.com/tfausak/list-singleton/actions)
-[![Hackage](https://img.shields.io/hackage/v/list-singleton)](https://hackage.haskell.org/package/list-singleton)
-[![Stackage](https://www.stackage.org/package/list-singleton/badge/nightly?label=stackage)](https://www.stackage.org/package/list-singleton)
 
 ## :european_castle: rampart
 
@@ -100,13 +79,6 @@ I actively maintain on Hackage.
 [![CI](https://github.com/tfausak/salve/workflows/CI/badge.svg)](https://github.com/tfausak/salve/actions)
 [![Hackage](https://img.shields.io/hackage/v/salve)](https://hackage.haskell.org/package/salve)
 [![Stackage](https://www.stackage.org/package/salve/badge/nightly?label=stackage)](https://www.stackage.org/package/salve)
-
-## :newspaper_roll: splint
-
-[![GitHub](https://img.shields.io/github/issues/tfausak/splint)](https://github.com/tfausak/splint)
-[![CI](https://github.com/tfausak/splint/workflows/CI/badge.svg)](https://github.com/tfausak/splint/actions)
-[![Hackage](https://img.shields.io/hackage/v/splint)](https://hackage.haskell.org/package/splint)
-[![Stackage](https://www.stackage.org/package/splint/badge/nightly?label=stackage)](https://www.stackage.org/package/splint)
 
 ## :bicyclist: strive
 
