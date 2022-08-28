@@ -142,5 +142,5 @@ everything set up initially:
 > git submodule foreach git checkout main
 > git submodule foreach git pull
 > cabal configure --enable-benchmarks --enable-tests --jobs
-> cabal build all
+> cabal build --project-file ghc-9.4.project all
 ```
