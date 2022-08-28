@@ -1,0 +1,28 @@
+import: cabal.project
+with-compiler: ghc-9.4.2
+
+-- https://github.com/zmthy/http-media/pull/40
+source-repository-package
+  location: https://github.com/ysangkok/http-media
+  tag: eb61a0fe66b98028ea215b0e5c9a338376c7c1d4
+  type: git
+
+-- https://github.com/vincenthz/hs-memory/pull/93
+source-repository-package
+  location: https://github.com/parsonsmatt/hs-memory
+  tag: 696383fbfb334c9247f9b406e1489b9ab294927d
+  type: git
+
+-- https://github.com/haskell-servant/servant/pull/1592
+source-repository-package
+  location: https://github.com/TeofilC/servant
+  subdir: servant servant-foreign
+  tag: e9a799ecb5cef047909b4c22071a8fa68ba30a8a
+  type: git
+
+-- https://github.com/haskell-hvr/uuid/pull/70
+source-repository-package
+  location: https://github.com/mitchellwrosen/uuid
+  subdir: uuid
+  tag: e818dcde0eefa2bd49a22382ba37b9ac18ed59fc
+  type: git

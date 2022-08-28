@@ -1,9 +1,6 @@
 [submodule "autoexporter"]
 	path = autoexporter
 	url = https://github.com/tfausak/autoexporter.git
-[submodule "derulo"]
-	path = derulo
-	url = https://github.com/tfausak/derulo.git
 [submodule "flow"]
 	path = flow
 	url = https://github.com/tfausak/flow.git
@@ -16,9 +13,6 @@
 [submodule "lackey"]
 	path = lackey
 	url = https://github.com/tfausak/lackey.git
-[submodule "list-singleton"]
-	path = list-singleton
-	url = https://github.com/tfausak/list-singleton.git
 [submodule "ratel"]
 	path = ratel
 	url = https://github.com/tfausak/ratel.git
@@ -43,12 +37,6 @@
 [submodule "burrito"]
 	path = burrito
 	url = https://github.com/tfausak/burrito.git
-[submodule "splint"]
-	path = splint
-	url = https://github.com/tfausak/splint.git
 [submodule "witch"]
 	path = witch
 	url = https://github.com/tfausak/witch.git
-[submodule "caerbannog"]
-	path = caerbannog
-	url = https://github.com/tfausak/caerbannog.git
