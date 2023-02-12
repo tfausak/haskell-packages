@@ -1,6 +1,9 @@
 [submodule "autoexporter"]
 	path = autoexporter
 	url = https://github.com/tfausak/autoexporter.git
+[submodule "burrito"]
+	path = burrito
+	url = https://github.com/tfausak/burrito.git
 [submodule "flow"]
 	path = flow
 	url = https://github.com/tfausak/flow.git
@@ -13,6 +16,12 @@
 [submodule "lackey"]
 	path = lackey
 	url = https://github.com/tfausak/lackey.git
+[submodule "patrol"]
+	path = patrol
+	url = https://github.com/tfausak/patrol.git
+[submodule "rampart"]
+	path = rampart
+	url = https://github.com/tfausak/rampart.git
 [submodule "ratel"]
 	path = ratel
 	url = https://github.com/tfausak/ratel.git
@@ -28,15 +37,9 @@
 [submodule "strive"]
 	path = strive
 	url = https://github.com/tfausak/strive.git
-[submodule "wuss"]
-	path = wuss
-	url = https://github.com/tfausak/wuss.git
-[submodule "rampart"]
-	path = rampart
-	url = https://github.com/tfausak/rampart.git
-[submodule "burrito"]
-	path = burrito
-	url = https://github.com/tfausak/burrito.git
 [submodule "witch"]
 	path = witch
 	url = https://github.com/tfausak/witch.git
+[submodule "wuss"]
+	path = wuss
+	url = https://github.com/tfausak/wuss.git

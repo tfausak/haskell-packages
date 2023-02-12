@@ -5,6 +5,7 @@ packages:
   github-release
   json-feed
   lackey
+  patrol
   rampart
   ratel
   ratel-wai
