@@ -100,7 +100,13 @@
           "uses": "actions/checkout@v3"
         },
         {
-          "run": "cabal check"
+          "run": "git submodule init"
+        },
+        {
+          "run": "git submodule update"
+        },
+        {
+          "run": "git submodule foreach cabal check"
         }
       ]
     },
