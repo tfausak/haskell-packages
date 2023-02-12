@@ -40,7 +40,7 @@
           "run": "cat ghc-${{ matrix.ghc }}.project.freeze"
         },
         {
-          "run": "cabal outdated --v2-freeze-file ghc-${{ matrix.ghc }}.project.freeze"
+          "run": "cabal outdated --project-file ghc-${{ matrix.ghc }}.project.freeze --v2-freeze-file"
         },
         {
           "uses": "actions/cache@v3",
