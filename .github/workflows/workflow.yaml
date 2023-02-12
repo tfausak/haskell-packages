@@ -116,6 +116,12 @@
           "with": {
             "version": 3.5
           }
+        },
+        {
+          "uses": "haskell/actions/hlint-run@v2",
+          "with": {
+            "fail-on": "status"
+          }
         }
       ]
     },
