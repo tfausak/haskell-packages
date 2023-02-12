@@ -5,13 +5,10 @@
       "runs-on": "${{ matrix.platform }}-${{ matrix.version }}",
       "steps": [
         {
-          "uses": "actions/checkout@v3"
-        },
-        {
-          "run": "git submodule init"
-        },
-        {
-          "run": "git submodule update"
+          "uses": "actions/checkout@v3",
+          "with": {
+            "submodules": true
+          }
         },
         {
           "run": "git submodule foreach git checkout main"
@@ -97,13 +94,10 @@
       "runs-on": "ubuntu-22.04",
       "steps": [
         {
-          "uses": "actions/checkout@v3"
-        },
-        {
-          "run": "git submodule init"
-        },
-        {
-          "run": "git submodule update"
+          "uses": "actions/checkout@v3",
+          "with": {
+            "submodules": true
+          }
         },
         {
           "run": "git submodule foreach cabal check"
@@ -115,7 +109,10 @@
       "runs-on": "ubuntu-22.04",
       "steps": [
         {
-          "uses": "actions/checkout@v3"
+          "uses": "actions/checkout@v3",
+          "with": {
+            "submodules": true
+          }
         },
         {
           "uses": "haskell/actions/hlint-setup@v2",
@@ -136,7 +133,10 @@
       "runs-on": "ubuntu-22.04",
       "steps": [
         {
-          "uses": "actions/checkout@v3"
+          "uses": "actions/checkout@v3",
+          "with": {
+            "submodules": true
+          }
         },
         {
           "uses": "mrkkrp/ormolu-action@v10"
