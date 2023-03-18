@@ -71,7 +71,7 @@
               "version": "22.04"
             },
             {
-              "ghc": "9.2.5",
+              "ghc": "9.2.7",
               "platform": "ubuntu",
               "version": "22.04"
             },
