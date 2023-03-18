@@ -1,0 +1,45 @@
+import: cabal.project
+with-compiler: ghc-9.6.1
+
+allow-newer:
+  , autoexporter:base
+  , burrito:base
+  , burrito:template-haskell
+  , burrito:transformers
+  , cryptohash-md5:base
+  , cryptohash-sha1:base
+  , flow:base
+  , github-release:base
+  , http-api-data:base
+  , http-media:base
+  , json-feed:base
+  , lackey:base
+  , patrol:base
+  , rampart:base
+  , ratel-wai:base
+  , ratel:base
+  , rattletrap:base
+  , salve:base
+  , servant-foreign:base
+  , servant:base
+  , servant:bifunctors
+  , singleton-bool:base
+  , sop-core:base
+  , strive:base
+  , strive:template-haskell
+  , strive:transformers
+  , witch:base
+  , witch:template-haskell
+  , wuss:base
+
+  -- https://github.com/haskell/entropy/pull/79
+  , entropy:Cabal
+
+-- https://github.com/haskell-servant/servant/pull/1627
+source-repository-package
+  type: git
+  location: https://github.com/haskell-servant/servant
+  tag: 0cda2d0ac87dc0dd47744134e44ab0b1647fe09a
+  subdir:
+    servant
+    servant-foreign
