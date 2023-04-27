@@ -1,7 +1,7 @@
 services:
   devcontainer:
-    command: sh -c 'while sleep 1; do :; done'
-    image: public.ecr.aws/acilearning/haskell:9.6.1-fb829495573d27b34e59006de445adac997a1089
+    command: sh -exc 'while sleep 1m; do :; done'
+    image: public.ecr.aws/acilearning/haskell:9.6.1-2e19da50cbfca6df390bc4fea4aa8af4147e911f
     init: true
     volumes:
       - .:/workspaces/haskell-packages
