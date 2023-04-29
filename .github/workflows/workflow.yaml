@@ -63,7 +63,7 @@
             {
               "ghc": "9.4.4",
               "platform": "macos",
-              "version": "12"
+              "version": "13"
             },
             {
               "ghc": "9.2.7",
