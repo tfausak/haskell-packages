@@ -20,12 +20,12 @@
           "id": "haskell",
           "uses": "haskell/actions/setup@v2",
           "with": {
-            "cabal-version": "3.8.1.0",
+            "cabal-version": "3.10.1.0",
             "ghc-version": "${{ matrix.ghc }}"
           }
         },
         {
-          "run": "cabal configure --enable-optimization=2 --enable-tests --flags pedantic --jobs"
+          "run": "cabal configure --enable-tests --flags pedantic --jobs"
         },
         {
           "run": "cat cabal.project.local"
@@ -63,7 +63,7 @@
             {
               "ghc": "9.4.4",
               "platform": "macos",
-              "version": "12"
+              "version": "13"
             },
             {
               "ghc": "9.2.7",
