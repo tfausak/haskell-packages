@@ -2,28 +2,11 @@ import: cabal.project
 with-compiler: ghc-9.6.1
 
 allow-newer:
-  , cryptohash-md5:base
   , servant-foreign:base
   , servant:base
   , servant:bifunctors
-
-  -- https://github.com/haskell-hvr/cryptohash-sha1/issues/18
-  , cryptohash-sha1:base
-
-  -- https://github.com/haskell/entropy/pull/79
-  , entropy:Cabal
-
-  -- https://github.com/fizruk/http-api-data/issues/125
-  , http-api-data:base
-
-  -- https://github.com/zmthy/http-media/issues/43
-  , http-media:base
-
-  -- https://github.com/phadej/singleton-bool/issues/23
-  , singleton-bool:base
-
-  -- https://github.com/well-typed/generics-sop/pull/161
-  , sop-core:base
+  , servant:http-api-data
+  , servant:singleton-bool
 
 -- https://github.com/haskell-servant/servant/pull/1627
 source-repository-package
