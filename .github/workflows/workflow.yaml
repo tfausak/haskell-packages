@@ -139,7 +139,7 @@
           }
         },
         {
-          "uses": "mrkkrp/ormolu-action@v11"
+          "uses": "mrkkrp/ormolu-action@v12"
         }
       ]
     }
