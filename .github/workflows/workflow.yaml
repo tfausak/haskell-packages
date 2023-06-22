@@ -139,7 +139,7 @@
           }
         },
         {
-          "uses": "mrkkrp/ormolu-action@v13"
+          "uses": "haskell-actions/run-ormolu@v13"
         }
       ]
     }
