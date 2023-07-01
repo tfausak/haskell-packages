@@ -121,5 +121,5 @@ everything set up initially:
 > git submodule foreach git checkout main
 > git submodule foreach git pull
 > cabal configure --enable-tests --jobs
-> cabal build --project-file "ghc-$( ghc --numeric-version ).project" all
+> ./cabal.sh build all
 ```

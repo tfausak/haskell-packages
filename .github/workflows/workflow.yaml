@@ -31,13 +31,13 @@
           "run": "cat cabal.project.local"
         },
         {
-          "run": "cabal freeze --project-file ghc-${{ matrix.ghc }}.project"
+          "run": "./cabal.sh freeze"
         },
         {
           "run": "cat ghc-${{ matrix.ghc }}.project.freeze"
         },
         {
-          "run": "cabal outdated --project-file ghc-${{ matrix.ghc }}.project --v2-freeze-file"
+          "run": "./cabal.sh outdated --v2-freeze-file"
         },
         {
           "uses": "actions/cache@v3",
@@ -48,13 +48,13 @@
           }
         },
         {
-          "run": "cabal build --only-download --project-file ghc-${{ matrix.ghc }}.project all"
+          "run": "./cabal.sh build --only-download all"
         },
         {
-          "run": "cabal build --only-dependencies --project-file ghc-${{ matrix.ghc }}.project all"
+          "run": "./cabal.sh build --only-dependencies all"
         },
         {
-          "run": "cabal build --project-file ghc-${{ matrix.ghc }}.project all"
+          "run": "./cabal.sh build all"
         }
       ],
       "strategy": {
