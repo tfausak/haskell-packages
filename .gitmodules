@@ -34,6 +34,9 @@
 [submodule "salve"]
 	path = salve
 	url = https://github.com/tfausak/salve.git
+[submodule "saturn"]
+	path = saturn
+	url = https://github.com/tfausak/saturn.git
 [submodule "strive"]
 	path = strive
 	url = https://github.com/tfausak/strive.git
