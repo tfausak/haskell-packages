@@ -87,6 +87,13 @@ I actively maintain on Hackage.
 [![Hackage](https://img.shields.io/hackage/v/salve)](https://hackage.haskell.org/package/salve)
 [![Stackage](https://www.stackage.org/package/salve/badge/nightly?label=stackage)](https://www.stackage.org/package/salve)
 
+## :ringed_planet: saturn
+
+[![GitHub](https://img.shields.io/github/issues/tfausak/saturn)](https://github.com/tfausak/saturn)
+[![CI](https://github.com/tfausak/saturn/actions/workflows/workflow.yaml/badge.svg)](https://github.com/tfausak/saturn/actions/workflows/workflow.yaml)
+[![Hackage](https://img.shields.io/hackage/v/saturn)](https://hackage.haskell.org/package/saturn)
+[![Stackage](https://www.stackage.org/package/saturn/badge/nightly?label=stackage)](https://www.stackage.org/package/saturn)
+
 ## :bicyclist: strive
 
 [![GitHub](https://img.shields.io/github/issues/tfausak/strive)](https://github.com/tfausak/strive)
