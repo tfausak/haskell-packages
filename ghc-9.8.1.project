@@ -1,0 +1,8 @@
+import: cabal.project
+with-compiler: ghc-9.8.1
+
+allow-newer:
+  , *:base
+  , *:deepseq
+  , *:template-haskell
+  , *:text
