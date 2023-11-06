@@ -1,7 +1,0 @@
-{
-  "dockerComposeFile": "compose.yaml",
-  "postCreateCommand": "cabal update",
-  "postStartCommand": "git config --global --add safe.directory '*'",
-  "service": "devcontainer",
-  "workspaceFolder": "/workspaces/haskell-packages"
-}
