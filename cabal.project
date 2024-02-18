@@ -1,6 +1,7 @@
 packages:
   autoexporter
   burrito
+  cabal-gild
   flow
   github-release
   json-feed

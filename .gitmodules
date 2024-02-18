@@ -4,6 +4,9 @@
 [submodule "burrito"]
 	path = burrito
 	url = https://github.com/tfausak/burrito.git
+[submodule "cabal-gild"]
+	path = cabal-gild
+	url = https://github.com/tfausak/cabal-gild.git
 [submodule "flow"]
 	path = flow
 	url = https://github.com/tfausak/flow.git

@@ -17,6 +17,13 @@ I actively maintain on Hackage.
 [![Hackage](https://img.shields.io/hackage/v/burrito)](https://hackage.haskell.org/package/burrito)
 [![Stackage](https://www.stackage.org/package/burrito/badge/nightly?label=stackage)](https://www.stackage.org/package/burrito)
 
+## :crown: cabal-gild
+
+[![GitHub](https://img.shields.io/github/issues/tfausak/cabal-gild)](https://github.com/tfausak/cabal-gild)
+[![CI](https://github.com/tfausak/cabal-gild/actions/workflows/workflow.yaml/badge.svg)](https://github.com/tfausak/cabal-gild/actions/workflows/workflow.yaml)
+[![Hackage](https://img.shields.io/hackage/v/cabal-gild)](https://hackage.haskell.org/package/cabal-gild)
+[![Stackage](https://www.stackage.org/package/cabal-gild/badge/nightly?label=stackage)](https://www.stackage.org/package/cabal-gild)
+
 ## :droplet: flow
 
 [![GitHub](https://img.shields.io/github/issues/tfausak/flow)](https://github.com/tfausak/flow)
