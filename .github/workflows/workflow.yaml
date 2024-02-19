@@ -139,7 +139,7 @@
           }
         },
         {
-          "uses": "haskell-actions/run-ormolu@v14"
+          "uses": "haskell-actions/run-ormolu@v15"
         }
       ]
     }
