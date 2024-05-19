@@ -13,6 +13,9 @@
 [submodule "github-release"]
 	path = github-release
 	url = https://github.com/tfausak/github-release.git
+[submodule "imp"]
+	path = imp
+	url = https://github.com/tfausak/imp.git
 [submodule "json-feed"]
 	path = json-feed
 	url = https://github.com/tfausak/json-feed.git

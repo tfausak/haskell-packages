@@ -1,0 +1,116 @@
+jobs:
+  build-cabal:
+    name: GHC ${{ matrix.ghc }} on ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - id: haskell
+        uses: haskell-actions/setup@v2
+        with:
+          ghc-version: ${{ matrix.ghc }}
+      - run: ghc-pkg list
+      - run: cabal configure --enable-tests --flags=pedantic --jobs
+      - run: cat cabal.project.local
+      - run: cabal freeze
+      - run: cat cabal.project.freeze
+      - run: cabal outdated --v2-freeze-file
+      - uses: actions/cache@v4
+        with:
+          key: ${{ matrix.os }}-${{ matrix.ghc }}-${{ hashFiles('cabal.project.freeze') }}
+          path: ${{ steps.haskell.outputs.cabal-store }}
+          restore-keys: ${{ matrix.os }}-${{ matrix.ghc }}-
+      - run: cabal build --only-download all
+      - run: cabal build --only-dependencies all
+      - run: cabal build all
+      - run: cabal run -- burrito-test-suite --randomize --strict
+    strategy:
+      matrix:
+        include:
+          - ghc: '9.10'
+            os: macos-13
+          - ghc: '9.10'
+            os: macos-14
+          - ghc: 9.6
+            os: ubuntu-22.04
+          - ghc: 9.8
+            os: ubuntu-22.04
+          - ghc: '9.10'
+            os: ubuntu-22.04
+          - ghc: '9.10'
+            os: windows-2022
+  build-stack:
+    env:
+      STACK_ROOT: ${{ github.workspace }}/.stack-root
+    name: Stackage ${{ matrix.snapshot }}
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - uses: haskell-actions/setup@v2
+        with:
+          enable-stack: true
+          stack-no-global: true
+      - uses: actions/cache@v4
+        with:
+          key: ${{ matrix.snapshot }}
+          path: |
+            .stack-root
+            .stack-work
+      - run: stack --snapshot ${{ matrix.snapshot }} test --no-run-tests
+    strategy:
+      matrix:
+        snapshot:
+          - lts
+          - nightly
+  cabal:
+    name: Cabal
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - run: git submodule foreach cabal check
+  gild:
+    name: Gild
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - uses: tfausak/cabal-gild-setup-action@v2
+      - run: git submodule foreach sh -exc 'cabal-gild --input *.cabal --mode check'
+  hlint:
+    name: HLint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - uses: haskell-actions/hlint-setup@9e09cc3653fc13702000a35f638a27b064adfbbe
+      - uses: haskell-actions/hlint-run@v2
+        with:
+          fail-on: status
+  ormolu:
+    name: Ormolu
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: true
+      - uses: haskell-actions/run-ormolu@v15
+name: CI
+on:
+  pull_request:
+    branches:
+      - main
+  push:
+    branches:
+      - main
+  release:
+    types:
+      - created
+  schedule:
+    - cron: 0 0 * * 1

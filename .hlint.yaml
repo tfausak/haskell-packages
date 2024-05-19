@@ -1,50 +1,21 @@
-[
-  {
-    "group": {
-      "enabled": true,
-      "name": "dollar"
-    }
-  },
-  {
-    "group": {
-      "enabled": true,
-      "name": "future"
-    }
-  },
-  {
-    "group": {
-      "enabled": true,
-      "name": "generalise"
-    }
-  },
-  {
-    "ignore": {
-      "name": "Redundant bracket"
-    }
-  },
-  {
-    "ignore": {
-      "name": "Use lambda-case"
-    }
-  },
-  {
-    "ignore": {
-      "name": "Use list comprehension"
-    }
-  },
-  {
-    "ignore": {
-      "name": "Use tuple-section"
-    }
-  },
-  {
-    "ignore": {
-      "name": "Use <$>"
-    }
-  },
-  {
-    "ignore": {
-      "name": "Use <|>"
-    }
-  }
-]
+- group:
+    enabled: true
+    name: dollar
+- group:
+    enabled: true
+    name: future
+- group:
+    enabled: true
+    name: generalise
+- ignore:
+    name: Redundant bracket
+- ignore:
+    name: Use lambda-case
+- ignore:
+    name: Use list comprehension
+- ignore:
+    name: Use tuple-section
+- ignore:
+    name: Use <$>
+- ignore:
+    name: Use <|>
