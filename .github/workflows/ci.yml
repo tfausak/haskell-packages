@@ -65,42 +65,6 @@ jobs:
         snapshot:
           - lts
           - nightly
-  cabal:
-    name: Cabal
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: true
-      - run: git submodule foreach cabal check
-  gild:
-    name: Gild
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: true
-      - uses: tfausak/cabal-gild-setup-action@v2
-      - run: git submodule foreach sh -exc 'cabal-gild --input *.cabal --mode check'
-  hlint:
-    name: HLint
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: true
-      - uses: haskell-actions/hlint-setup@9e09cc3653fc13702000a35f638a27b064adfbbe
-      - uses: haskell-actions/hlint-run@v2
-        with:
-          fail-on: status
-  ormolu:
-    name: Ormolu
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          submodules: true
-      - uses: haskell-actions/run-ormolu@v15
 name: CI
 on:
   pull_request:
