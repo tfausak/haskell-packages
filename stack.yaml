@@ -1,0 +1,19 @@
+snapshot: lts
+packages:
+  - autoexporter
+  - burrito
+  - cabal-gild
+  - flow
+  - github-release
+  - json-feed
+  - lackey
+  - patrol
+  - rampart
+  - ratel
+  - ratel-wai
+  - rattletrap
+  - salve
+  - saturn
+  - strive
+  - witch
+  - wuss
