@@ -6,20 +6,21 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: true
-      - id: haskell
-        uses: haskell-actions/setup@v2
+      - uses: haskell/ghcup-setup@v1
         with:
-          ghc-version: ${{ matrix.ghc }}
-      - run: ghc-pkg list
+          ghc: ${{ matrix.ghc }}
+          cabal: latest
+=      - run: ghc-pkg list
       - run: cabal configure --enable-tests --flags=pedantic --jobs
       - run: cat cabal.project.local
+      - run: cabal update
       - run: cabal freeze
       - run: cat cabal.project.freeze
       - run: cabal outdated --v2-freeze-file
       - uses: actions/cache@v4
         with:
           key: ${{ matrix.os }}-${{ matrix.ghc }}-${{ hashFiles('cabal.project.freeze') }}
-          path: ${{ steps.haskell.outputs.cabal-store }}
+          path: ~/.local/state/cabal
           restore-keys: ${{ matrix.os }}-${{ matrix.ghc }}-
       - run: cabal build --only-download all
       - run: cabal build --only-dependencies all
@@ -28,17 +29,17 @@ jobs:
     strategy:
       matrix:
         include:
-          - ghc: '9.10'
+          - ghc: 9.12
             os: macos-13
-          - ghc: '9.10'
+          - ghc: 9.12
             os: macos-14
-          - ghc: 9.6
-            os: ubuntu-22.04
           - ghc: 9.8
-            os: ubuntu-22.04
+            os: ubuntu-24.04
           - ghc: '9.10'
-            os: ubuntu-22.04
-          - ghc: '9.10'
+            os: ubuntu-24.04
+          - ghc: 9.12
+            os: ubuntu-24.04
+          - ghc: 9.12
             os: windows-2022
   build-stack:
     env:
@@ -49,10 +50,9 @@ jobs:
       - uses: actions/checkout@v4
         with:
           submodules: true
-      - uses: haskell-actions/setup@v2
+      - uses: haskell/ghcup-setup@v1
         with:
-          enable-stack: true
-          stack-no-global: true
+          stack: latest
       - uses: actions/cache@v4
         with:
           key: ${{ matrix.snapshot }}
