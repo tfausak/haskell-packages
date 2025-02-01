@@ -10,7 +10,7 @@ jobs:
         with:
           ghc: ${{ matrix.ghc }}
           cabal: latest
-=      - run: ghc-pkg list
+      - run: ghc-pkg list
       - run: cabal configure --enable-tests --flags=pedantic --jobs
       - run: cat cabal.project.local
       - run: cabal update
