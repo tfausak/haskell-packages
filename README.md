@@ -92,19 +92,3 @@ I actively maintain on Hackage.
   [![GitHub](https://badgen.net/github/open-issues/tfausak/wuss)](https://github.com/tfausak/wuss)
   [![CI](https://github.com/tfausak/wuss/actions/workflows/ci.yml/badge.svg)](https://github.com/tfausak/wuss/actions/workflows/ci.yml)
   [![Hackage](https://badgen.net/hackage/v/wuss)](https://hackage.haskell.org/package/wuss)
-
----
-
-Since I always forget how to work with Git submodules, here's how to get
-everything set up initially:
-
-``` sh
-> git clone git@github.com:tfausak/haskell-packages.git
-> cd haskell-packages
-> git submodule init
-> git submodule update
-> git submodule foreach git checkout main
-> git submodule foreach git pull
-> cabal configure --enable-tests --jobs
-> cabal build all
-```
