@@ -1,0 +1,14 @@
+{
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "taylorfausak.purple-yolk"
+            ]
+        }
+    },
+    "dockerComposeFile": "compose.yaml",
+    "onCreateCommand": "doas apk add --no-cache git zlib-dev zlib-static",
+    "updateContentCommand": "cabal update",
+    "service": "devcontainer",
+    "workspaceFolder": "/workspace"
+}

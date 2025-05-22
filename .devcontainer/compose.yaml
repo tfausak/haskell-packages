@@ -1,0 +1,13 @@
+services:
+  devcontainer:
+    command: sleep infinity
+    image: ghcr.io/tfausak/docker-haskell:9.12.2
+    init: true
+    volumes:
+      - ..:/workspace
+      - cabal-cache:/home/vscode/.cache/cabal
+      - cabal-store:/home/vscode/.local/state/cabal
+    working_dir: /workspace
+volumes:
+  cabal-cache: null
+  cabal-store: null
