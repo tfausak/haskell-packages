@@ -11,7 +11,6 @@ packages:
   rampart
   ratel
   ratel-wai
-  rattletrap
   salve
   saturn
   strive
@@ -19,9 +18,9 @@ packages:
   wuss
 
 allow-newer:
-  , optparse-generic:time
   -- https://github.com/fizruk/http-api-data/issues/147
-  , http-api-data:base
   -- https://github.com/haskell-servant/servant/pull/1753
+  , optparse-generic:time
+  , http-api-data:base
   , servant-foreign:base
   , servant:base

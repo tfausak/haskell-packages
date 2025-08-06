@@ -34,9 +34,6 @@
 [submodule "ratel-wai"]
 	path = ratel-wai
 	url = https://github.com/tfausak/ratel-wai.git
-[submodule "rattletrap"]
-	path = rattletrap
-	url = https://github.com/tfausak/rattletrap.git
 [submodule "salve"]
 	path = salve
 	url = https://github.com/tfausak/salve.git
