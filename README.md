@@ -63,11 +63,6 @@ I actively maintain on Hackage.
   [![CI](https://github.com/tfausak/ratel-wai/actions/workflows/ci.yml/badge.svg)](https://github.com/tfausak/ratel-wai/actions/workflows/ci.yml)
   [![Hackage](https://badgen.net/hackage/v/ratel-wai)](https://hackage.haskell.org/package/ratel-wai)
 
-- :car: rattletrap
-  [![GitHub](https://badgen.net/github/open-issues/tfausak/rattletrap)](https://github.com/tfausak/rattletrap)
-  [![CI](https://github.com/tfausak/rattletrap/actions/workflows/ci.yml/badge.svg)](https://github.com/tfausak/rattletrap/actions/workflows/ci.yml)
-  [![Hackage](https://badgen.net/hackage/v/rattletrap)](https://hackage.haskell.org/package/rattletrap)
-
 - :syringe: salve
   [![GitHub](https://badgen.net/github/open-issues/tfausak/salve)](https://github.com/tfausak/salve)
   [![CI](https://github.com/tfausak/salve/actions/workflows/ci.yml/badge.svg)](https://github.com/tfausak/salve/actions/workflows/ci.yml)
