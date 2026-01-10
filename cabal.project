@@ -4,9 +4,12 @@ packages:
   cabal-gild
   flow
   github-release
+  heck
+  heptapod
   imp
   json-feed
   lackey
+  literally
   patrol
   rampart
   ratel
@@ -18,9 +21,44 @@ packages:
   wuss
 
 allow-newer:
-  -- https://github.com/fizruk/http-api-data/issues/147
-  -- https://github.com/haskell-servant/servant/pull/1753
-  , optparse-generic:time
+  , aeson:base
+  , aeson:bytestring
+  , aeson:containers
+  , aeson:deepseq
+  , aeson:ghc-prim
+  , aeson:template-haskell
+  , aeson:time
+  , boring:base
+  , dec:base
+  , directory:time
+  , entropy:base
+  , free:containers
+  , free:template-haskell
   , http-api-data:base
+  , http-api-data:containers
+  , http-media:bytestring
+  , http-media:containers
+  , indexed-traversable-instances:base
+  , indexed-traversable:base
+  , indexed-traversable:containers
+  , lens:containers
+  , lens:template-haskell
+  , optparse-generic:time
+  , semialign:base
+  , semialign:containers
   , servant-foreign:base
   , servant:base
+  , singleton-bool:base
+  , some:base
+  , streaming-commons:base
+  , tagged:base
+  , tagged:template-haskell
+  , text-iso8601:time
+  , these:base
+  , time-compat:base
+  , time-compat:time
+  , uuid-types:template-haskell
+  , uuid:directory
+  , uuid:time
+  , websockets:bytestring
+  , websockets:containers

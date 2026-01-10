@@ -13,6 +13,12 @@
 [submodule "github-release"]
 	path = github-release
 	url = https://github.com/tfausak/github-release.git
+[submodule "heck"]
+	path = heck
+	url = https://github.com/tfausak/heck.git
+[submodule "heptapod"]
+	path = heptapod
+	url = https://github.com/tfausak/heptapod.git
 [submodule "imp"]
 	path = imp
 	url = https://github.com/tfausak/imp.git
@@ -22,6 +28,9 @@
 [submodule "lackey"]
 	path = lackey
 	url = https://github.com/tfausak/lackey.git
+[submodule "literally"]
+	path = literally
+	url = https://github.com/tfausak/literally.git
 [submodule "patrol"]
 	path = patrol
 	url = https://github.com/tfausak/patrol.git
