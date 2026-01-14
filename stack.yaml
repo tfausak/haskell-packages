@@ -5,8 +5,11 @@ packages:
   - cabal-gild
   - flow
   - github-release
+  - heck
+  - heptapod
   - json-feed
   - lackey
+  - literally
   - patrol
   - rampart
   - ratel

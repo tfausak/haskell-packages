@@ -28,6 +28,16 @@ I actively maintain on Hackage.
   [![CI](https://github.com/tfausak/github-release/actions/workflows/ci.yml/badge.svg)](https://github.com/tfausak/github-release/actions/workflows/ci.yml)
   [![Hackage](https://badgen.net/hackage/v/github-release)](https://hackage.haskell.org/package/github-release)
 
+- heck
+  [![GitHub](https://badgen.net/github/open-issues/tfausak/heck)](https://github.com/tfausak/heck)
+  [![CI](https://github.com/tfausak/heck/actions/workflows/ci.yml/badge.svg)](https://github.com/tfausak/heck/actions/workflows/ci.yml)
+  [![Hackage](https://badgen.net/hackage/v/heck)](https://hackage.haskell.org/package/heck)
+
+- :squid: heptapod
+  [![GitHub](https://badgen.net/github/open-issues/tfausak/heptapod)](https://github.com/tfausak/heptapod)
+  [![CI](https://github.com/tfausak/heptapod/actions/workflows/ci.yml/badge.svg)](https://github.com/tfausak/heptapod/actions/workflows/ci.yml)
+  [![Hackage](https://badgen.net/hackage/v/heptapod)](https://hackage.haskell.org/package/heptapod)
+
 - :smiling_imp: imp
   [![GitHub](https://badgen.net/github/open-issues/tfausak/imp)](https://github.com/tfausak/imp)
   [![CI](https://github.com/tfausak/imp/actions/workflows/ci.yml/badge.svg)](https://github.com/tfausak/imp/actions/workflows/ci.yml)
@@ -42,6 +52,11 @@ I actively maintain on Hackage.
   [![GitHub](https://badgen.net/github/open-issues/tfausak/lackey)](https://github.com/tfausak/lackey)
   [![CI](https://github.com/tfausak/lackey/actions/workflows/ci.yml/badge.svg)](https://github.com/tfausak/lackey/actions/workflows/ci.yml)
   [![Hackage](https://badgen.net/hackage/v/lackey)](https://hackage.haskell.org/package/lackey)
+
+- literally
+  [![GitHub](https://badgen.net/github/open-issues/tfausak/literally)](https://github.com/tfausak/literally)
+  [![CI](https://github.com/tfausak/literally/actions/workflows/ci.yml/badge.svg)](https://github.com/tfausak/literally/actions/workflows/ci.yml)
+  [![Hackage](https://badgen.net/hackage/v/literally)](https://hackage.haskell.org/package/literally)
 
 - :signal_strength: patrol
   [![GitHub](https://badgen.net/github/open-issues/tfausak/patrol)](https://github.com/tfausak/patrol)
