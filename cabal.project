@@ -29,6 +29,8 @@ allow-newer:
   , aeson:template-haskell
   , aeson:time
   , boring:base
+  , cborg:base
+  , cborg:containers
   , dec:base
   , directory:time
   , entropy:base
@@ -46,6 +48,9 @@ allow-newer:
   , optparse-generic:time
   , semialign:base
   , semialign:containers
+  , serialise:base
+  , serialise:containers
+  , serialise:time
   , servant-foreign:base
   , servant:base
   , singleton-bool:base
