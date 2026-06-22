@@ -3,7 +3,7 @@ jobs:
     name: GHC ${{ matrix.ghc }} on ${{ matrix.os }}
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           submodules: true
       - uses: haskell/ghcup-setup@v1
@@ -45,7 +45,7 @@ jobs:
     name: Stackage ${{ matrix.snapshot }}
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v6
+      - uses: actions/checkout@v7
         with:
           submodules: true
       - uses: haskell/ghcup-setup@v1
