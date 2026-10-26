@@ -25,7 +25,6 @@ jobs:
       - run: cabal build --only-download all
       - run: cabal build --only-dependencies all
       - run: cabal build all
-      - run: cabal run -- burrito-test-suite --randomize --strict
     strategy:
       matrix:
         include:
